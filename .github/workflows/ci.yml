@@ -6,6 +6,10 @@ on:
       - 'k8s.txt'
       - 'app.py'
       - 'embed.py'
+      - 'semantic_test.py'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
 
 jobs:
   test-and-build:
