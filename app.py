@@ -3,6 +3,7 @@ from fastapi import FastAPI
 import chromadb
 
 # Mock LLM mode for CI testing
+# llm mock
 USE_MOCK_LLM = os.getenv("USE_MOCK_LLM", "0") == "1"
 
 if not USE_MOCK_LLM:
